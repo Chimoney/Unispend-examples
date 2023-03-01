@@ -9,7 +9,7 @@ This demo demostrates how to easily integrate the `Unispend` Multiwallet shoppin
 ## Installation
 
 ```
- https://{Unispend URL WHEN LIVE }/?cSContext={{YOUR PREFERRED SPEND CONTEXT}}
+ https://unispend.com/?cSContext={{YOUR PREFERRED SPEND CONTEXT}}
 ```
 
 ## Keywords:
@@ -29,7 +29,7 @@ For more context:
 
 ```html
  <iframe
-  src="https://{unispend Live Url}/?cSContext={{YOUR PREFERRED SPEND CONTEXT}}"
+  src="https://unispend.com/?cSContext={{YOUR PREFERRED SPEND CONTEXT}}"
   title="Unispend Widget"
   >
 ```
@@ -41,7 +41,7 @@ Customizing `Unispend` is a walk in the park just as installing it is. Infact, y
 
 ```html
  <iframe
-  src="https://{unispend Live Url}/?cSContext=evm&primaryColor=eb4034&xAppTheme=light"
+  src="https://unispend.com/?cSContext=evm&primaryColor=eb4034&xAppTheme=light"
   title="Unispend Widget"
   >
 ```

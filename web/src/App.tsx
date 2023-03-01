@@ -31,7 +31,7 @@ function App() {
   );
   const uniSpendUrl = useMemo(
     () =>
-      `https://chispend-staging.onrender.com/?cSContext=${memoizedSpendContext}${
+      `https://unispend.com/?cSContext=${memoizedSpendContext}${
         memoizedPrimaryColor
           ? `&primaryColor=${memoizedPrimaryColor.substring(1)}`
           : ""
