@@ -77,7 +77,6 @@ Want to enable checkouts on Unispend with your [`own wallet`](#ext_wallet)?
 ### <a name="ext_wallet"></a> **External wallet Integration**
 
 ---
-![Image](/screenshots/pay_with_wallet.png)
 
 - [Get your Api Key](https://chimoney.readme.io/reference/sandbox-environment).
 - [Build the experience](#integrate_ext_wallet).
