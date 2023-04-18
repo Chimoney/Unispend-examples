@@ -25,14 +25,9 @@ Integrating Unispend will require the use of a webview in your existing applicat
 
 ## Customizing Unispend:
 
-Customizing `Unispend` is a walk in the park just as installing it is. Infact, you don't need to do anything other than modify the `url` a bit. Simple right? Let's get it:
+Customizing `Unispend` is a walk in the park just as installing it is. Infact, you don't need to do anything other than modify the `url` a bit. Simple right? Let's get it: `https://unispend.com/?cSContext=evm&primaryColor=eb4034&xAppTheme=light`
 
-```html
- <iframe
-  src="https://unispend.com/?cSContext=evm&primaryColor=eb4034&xAppTheme=light"
-  title="Unispend Widget"
-  >
-```
+
 
 ### Customization Options:
 
