@@ -1,4 +1,4 @@
-# Unispend integration example (Web)
+# Unispend integration example (Mobile)
 
 This demo demostrates how to easily integrate the `Unispend` Multiwallet shopping experience in your mobile application.
 
