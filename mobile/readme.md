@@ -66,7 +66,9 @@ We support payments through these methods.
  'metamask',
  'walletconnect',
  'celo',
- 'api_call'
+ 'api_call',
+ 'moonbeam',
+ 'xumm',
 ]
 ```
 

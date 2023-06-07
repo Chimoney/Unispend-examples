@@ -96,7 +96,12 @@ function App() {
         chimoneys?: any[];
       }>
     ) => {
-      if (spendContext !== "web" && spendContext !== "mobile" && spendContext !== "api_call") return;
+      if (
+        spendContext !== "web" &&
+        spendContext !== "mobile" &&
+        spendContext !== "api_call"
+      )
+        return;
       if (!e.data?.chimoneys) return;
       setChimoneyObject(
         `Here is the chimoney object for your transaction:\n${JSON.stringify(
@@ -122,7 +127,10 @@ function App() {
     <div className={styles.container}>
       <div className={styles.header}>
         <Logo />
-        <h4>Easily embed the Unispend customisable market place </h4>
+        <h4>
+          Low-code link builder to embed the Unispend customisable marketplace
+          for mobile Apps, dApps, Wallets etc.
+        </h4>
       </div>
 
       <div className={styles.frame__section}>
@@ -166,7 +174,10 @@ function App() {
               }}
             />
             <Logo />
-            <p>Easily embed the Unispend customisable market place </p>
+            <p>
+              Low-code link builder to embed the Unispend customisable
+              marketplace for mobile Apps, dApps, Wallets etc.
+            </p>
           </div>
 
           <h4> Customisation widget</h4>
@@ -181,6 +192,19 @@ function App() {
               {supportedAppStyles.map((style) => (
                 <option value={style} key={style}>
                   {style}
+                </option>
+              ))}
+            </Select>
+            <p> Change Spend Context: </p>
+            <span>Spend context is the preferred payment channel/method.</span>
+            <Select
+              onChange={handleChange}
+              value={memoizedSpendContext}
+              name="spendContext"
+            >
+              {supportedSpendContexts.map((context) => (
+                <option value={context} key={context}>
+                  {capitalizeFirst(context)}
                 </option>
               ))}
             </Select>
@@ -201,19 +225,6 @@ function App() {
               value={memoizedMaxAmountInUSD}
               onChange={handleChange}
             />
-            <p> Change Spend Context: </p>
-            <span>Spend context is the preferred payment channel/method.</span>
-            <Select
-              onChange={handleChange}
-              value={memoizedSpendContext}
-              name="spendContext"
-            >
-              {supportedSpendContexts.map((context) => (
-                <option value={context} key={context}>
-                  {capitalizeFirst(context)}
-                </option>
-              ))}
-            </Select>
             <p> Unispend Url </p>
             <Copy
               text={uniSpendUrl}
